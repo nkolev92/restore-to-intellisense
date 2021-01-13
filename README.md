@@ -64,4 +64,12 @@ Design time builds are minimal builds that gather enough information to populate
 [.NET Project System general docs](https://github.com/dotnet/project-system/tree/master/docs)
 [.NET Project System design time build details](https://github.com/dotnet/project-system/blob/master/docs/design-time-builds.md)
 
-## PackageReference, Automatic restore and `intellisense stage` in .NET Managed languages project system
+## packages.config and intellisense
+
+Getting intellisense in packages.config requires a manual restore.
+
+## PackageReference, solution load, automatic restore and `intellisense stage` in .NET Managed languages project system
+
+Getting intellisense in SDK based PackageReference requires a manual restore.
+
+TODO NK - timeline.
