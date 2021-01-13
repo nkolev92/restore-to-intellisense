@@ -70,6 +70,11 @@ Getting intellisense in packages.config requires a manual restore.
 
 ## PackageReference, solution load, automatic restore and `intellisense stage` in .NET Managed languages project system
 
-Getting intellisense in SDK based PackageReference requires a manual restore.
+Getting intellisense in SDK based PackageReference is automatic.
 
-TODO NK - timeline.
+* Project load, evaluation
+* Design time build #1
+* Restore
+* Design time build #2 if necessary.
+
+![Intellisense stage for 3 projects](intellisense-stage.png)
