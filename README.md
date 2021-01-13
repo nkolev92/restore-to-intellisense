@@ -55,6 +55,7 @@ Design time builds are minimal builds that gather enough information to populate
 
 * Language service (roslyn)
 * Solution explorer
+* NuGet restore nomination **!!!!!**
 
 ### Project System references
 
@@ -73,7 +74,7 @@ Getting intellisense in packages.config requires a manual restore.
 Getting intellisense in SDK based PackageReference is automatic.
 
 * Project load, evaluation
-* Design time build #1
+* Design time build #1 (leads to nomination)
 * Restore
 * Design time build #2 if necessary.
 
